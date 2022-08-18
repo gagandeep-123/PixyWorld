@@ -1,0 +1,84 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  margin: 0 20px;
+  margin-top: 8px;
+}
+
+.logo {
+  height: 26px;
+}
+
+.unsplashLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  background-color: #f6f6f6;
+  margin: 0 20px;
+  border-radius: 25px;
+  padding: 0 12px;
+}
+
+.nav {
+  margin: 0 18px;
+}
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  margin-left: 6px;
+  font-size: 12px;
+  background-color: #f6f6f6;
+  outline: none;
+}
+
+.actionBtns {
+  display: flex;
+  align-items: center;
+}
+.actionList {
+  list-style: none;
+  display: flex;
+}
+
+.listItem {
+  text-decoration: none;
+  color: #5b5b5b;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.login,
+.signup {
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.showBtn-container {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.showBtn {
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: white;
+  color: #5b5b5b;
+}
+
+.showBtn:hover {
+  color: black;
+}

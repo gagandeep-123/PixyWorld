@@ -1,0 +1,34 @@
+
+.inputBox{     
+    font-size: 12px;
+    background-color: #F5F5F5;
+}
+
+.inputBox input{
+    border: none;
+    background-color: #F5F5F5;
+    padding: 12px;
+}
+
+.aboutImage{
+    height: 396px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.aboutApp{
+    padding: 0 13px;
+    border-right: 2px solid grey;
+}
+
+.about-container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f6f6;
+    margin-top: 20px;
+}
+
+.poweredBy{
+    padding: 0 13px;
+}
